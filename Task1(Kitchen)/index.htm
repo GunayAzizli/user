@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <h3>Best Developer</h3>
+                </a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section id="menuSection" class="col-12 col-md-6">
+            <div class="container title">
+                <h2>Elektron Menyu</h2>
+
+                <div id="menu"> <!-- hələlik form tag-i yerinə div tag-i istifadə edin -->
+                    <select id="yemekler" class="form-select" aria-label="Default select example">
+                        <option selected>Yeməklər</option>
+                        
+                    </select>
+                    <select id="salatlar" class="form-select" aria-label="Default select example">
+                        <option selected>Salatlar</option>
+                        
+                    </select>
+                    <select id="tursular" class="form-select" aria-label="Default select example">
+                        <option selected>Turşular</option>
+                       
+                    </select>
+                    <select id="ickiler" class="form-select" aria-label="Default select example">
+                        <option selected>İçkilər</option>
+                       
+                    </select>
+                    <select id="souslar" class="form-select" aria-label="Default select example">
+                        <option selected>Souslar</option>
+                   
+                    </select>
+                    <button id="klik" class="btn btn-primary">Təsdiqlə</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="col-12 col-md-6">
+            <div class="container title">
+                <h2>Mətbəx</h2>
+                <div id="orders">
+                  
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer></footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
